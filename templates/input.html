@@ -1,0 +1,21 @@
+<!doctype html>
+<title>  Home </title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>  
+
+<div class=page>
+  <h2> Type stock ticker symbol </h2>
+<div class=metanav> <!-- this changes appearence -->
+
+   <!-- action=URL you want to move after hitting submit-->
+   <form id='userinfoform_lulu' method='post' action='home' > 
+     <p>
+        Ticker: <input type='text' name='var1' />
+    </p>
+	<p>
+	 <!-- this is to create submit botton -->
+        <input type='submit' value='Click here' /> 
+     </p>
+    </form>
+
+</div>
+</div>
